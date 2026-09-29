@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"00ba57567b806248","type":"file","file":"Cyber Security/basics/pengertian cyber security.md","x":-900,"y":-1500,"width":400,"height":400},
+		{"id":"62b01524b799eb9f","type":"file","file":"Cyber Security/basics/images/cyber security.png","x":-480,"y":-1500,"width":577,"height":395},
+		{"id":"15a26c3c30cc4e0d","type":"file","file":"Cyber Security/basics/basic.canvas","x":-115,"y":-600,"width":400,"height":400},
+		{"id":"2fde840cfbddd6d6","type":"file","file":"Cyber Security/basics/capture the flag.md","x":-940,"y":-420,"width":400,"height":400},
+		{"id":"b118959bc2d51497","type":"text","text":"pengertian","x":-670,"y":-600,"width":130,"height":60},
+		{"id":"bf7053779fecefaa","type":"text","text":"kategori-kategori di ctf","x":-490,"y":-600,"width":250,"height":60},
+		{"id":"c01c857bc76d6409","type":"text","text":"CTF dalam cyber security","x":-580,"y":-750,"width":270,"height":50},
+		{"id":"7dba6b7a7759efc7","type":"text","text":"dasar-dasar cyber security","x":-260,"y":-750,"width":250,"height":60},
+		{"id":"9064a992c429fab4","type":"text","text":"Cyber Security","x":-560,"y":-903,"width":250,"height":60},
+		{"id":"077546e6b1d59b07","type":"text","text":"pengertian","x":-560,"y":-1020,"width":250,"height":60},
+		{"id":"223160edb36d5859","type":"file","file":"Cyber Security/basics/images/hero.jpeg","x":-1140,"y":-1080,"width":400,"height":267}
+	],
+	"edges":[
+		{"id":"77df6f7129155a81","fromNode":"9064a992c429fab4","fromSide":"top","toNode":"077546e6b1d59b07","toSide":"bottom"},
+		{"id":"bc34bbabf598f3a0","fromNode":"077546e6b1d59b07","fromSide":"top","toNode":"00ba57567b806248","toSide":"bottom"},
+		{"id":"c681e88def6c8297","fromNode":"077546e6b1d59b07","fromSide":"top","toNode":"62b01524b799eb9f","toSide":"bottom"},
+		{"id":"bc994b394f2d986c","fromNode":"9064a992c429fab4","fromSide":"bottom","toNode":"7dba6b7a7759efc7","toSide":"top"},
+		{"id":"5dbcae30dfa7de16","fromNode":"9064a992c429fab4","fromSide":"bottom","toNode":"c01c857bc76d6409","toSide":"top"},
+		{"id":"e19cf61d7bb6f041","fromNode":"7dba6b7a7759efc7","fromSide":"bottom","toNode":"15a26c3c30cc4e0d","toSide":"top"},
+		{"id":"e24732cdc42a51b8","fromNode":"b118959bc2d51497","fromSide":"bottom","toNode":"2fde840cfbddd6d6","toSide":"top"},
+		{"id":"2c086f07ad544e8a","fromNode":"c01c857bc76d6409","fromSide":"bottom","toNode":"b118959bc2d51497","toSide":"top"},
+		{"id":"9a2f127790eb9855","fromNode":"c01c857bc76d6409","fromSide":"bottom","toNode":"bf7053779fecefaa","toSide":"top"},
+		{"id":"b97b49391bdcc0d3","fromNode":"9064a992c429fab4","fromSide":"left","toNode":"223160edb36d5859","toSide":"right"}
+	]
+}
