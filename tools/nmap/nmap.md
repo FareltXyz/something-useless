@@ -10,4 +10,6 @@ Berikut adalah penjelasan mengenai keenam status port tersebut:
 *   **Unfiltered**: Port dapat diakses, tetapi Nmap belum bisa memastikan apakah status sebenarnya adalah "open" atau "closed". Klasifikasi ini hanya muncul saat menggunakan ACK scan yang bertujuan memetakan aturan firewall. Untuk memperjelas status sebenarnya, pemindaian lanjutan dengan tipe Window, SYN, atau FIN scan mungkin diperlukan.
 *   **Open|filtered**: Status ambigu ini digunakan ketika Nmap gagal membedakan antara port yang "open" dan "filtered". Hal ini terjadi pada jenis pemindaian di mana port terbuka tidak memberikan respons sama sekali. Ketiadaan respons bisa berarti port tersebut terbuka namun sunyi, atau paketnya dibuang oleh filter. Tipe scan seperti UDP, IP protocol, FIN, NULL, dan Xmas menghasilkan klasifikasi ini.
 *   **Closed|filtered**: Ini adalah status terakhir yang menunjukkan ketidakmampuan Nmap dalam menentukan apakah port "closed" atau "filtered". Status ini sangat spesifik dan hanya digunakan dalam metode IP ID idle scan.
+
+
 [sumber](https://nmap.org)
