@@ -10,7 +10,7 @@
 		{"id":"7dba6b7a7759efc7","type":"text","text":"dasar-dasar cyber security","x":-260,"y":-750,"width":250,"height":60},
 		{"id":"9064a992c429fab4","type":"text","text":"Cyber Security","x":-560,"y":-903,"width":250,"height":60},
 		{"id":"077546e6b1d59b07","type":"text","text":"pengertian","x":-560,"y":-1020,"width":250,"height":60},
-		{"id":"223160edb36d5859","type":"file","file":"Cyber Security/basics/images/hero.jpeg","x":-1140,"y":-1080,"width":400,"height":267}
+		{"id":"223160edb36d5859","type":"file","file":"Cyber Security/basics/images/hero.jpeg","x":-1120,"y":-1080,"width":400,"height":267}
 	],
 	"edges":[
 		{"id":"77df6f7129155a81","fromNode":"9064a992c429fab4","fromSide":"top","toNode":"077546e6b1d59b07","toSide":"bottom"},
