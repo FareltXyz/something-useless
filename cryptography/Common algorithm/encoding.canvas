@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"d7db6b9da6753ef1","type":"file","file":"Cyber Security/cryptography/Common algorithm/images/en.wikipedia.org_wiki_Base64.png","x":260,"y":-220,"width":400,"height":160},
+		{"id":"f097458072344a17","type":"text","text":"Proses mengubah informasi dari suatu sumber menjadi data yang disandikan disebut **pengodean** atau **penyandian** (_encoding_). Sebaliknya, **pengawakodean** atau **pengawasandian** (_decoding_) adalah proses kebalikannya, yaitu ekstraksi atau konversi data yang telah disandikan kembali menjadi informasi asalnya yang dapat dimengerti oleh penerima.","x":-585,"y":-140,"width":370,"height":260},
+		{"id":"f2f9ffeb866b9208","type":"text","text":"Encoding","x":-180,"y":-200,"width":250,"height":60},
+		{"id":"109d4a29df0566fc","type":"text","text":"Base64","x":-55,"y":-40,"width":250,"height":60},
+		{"id":"4d442aa2edd743c8","type":"text","text":"Base32","x":-55,"y":60,"width":250,"height":60},
+		{"id":"5b971f779b5ea8a6","type":"text","text":"Url Encoding","x":-55,"y":460,"width":250,"height":60},
+		{"id":"71c5822ef5f445af","type":"text","text":"Binary","x":-55,"y":160,"width":250,"height":60},
+		{"id":"15637600c690b32a","type":"text","text":"Hex","x":-55,"y":260,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"be287d27eac95dc9","fromNode":"f2f9ffeb866b9208","fromSide":"left","toNode":"f097458072344a17","toSide":"right"},
+		{"id":"9d9d0f6f48187461","fromNode":"f2f9ffeb866b9208","fromSide":"bottom","toNode":"109d4a29df0566fc","toSide":"left"},
+		{"id":"8632fc2487c0b98e","fromNode":"f2f9ffeb866b9208","fromSide":"bottom","toNode":"4d442aa2edd743c8","toSide":"left"},
+		{"id":"a674549dc72f9205","fromNode":"f2f9ffeb866b9208","fromSide":"bottom","toNode":"71c5822ef5f445af","toSide":"left"},
+		{"id":"6a9b3e894f427173","fromNode":"f2f9ffeb866b9208","fromSide":"bottom","toNode":"15637600c690b32a","toSide":"left"},
+		{"id":"3ff11650be50f2af","fromNode":"f2f9ffeb866b9208","fromSide":"bottom","toNode":"5b971f779b5ea8a6","toSide":"left"},
+		{"id":"9fa1dc2479a6f7ae","fromNode":"109d4a29df0566fc","fromSide":"right","toNode":"d7db6b9da6753ef1","toSide":"left"}
+	]
+}
