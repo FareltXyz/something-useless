@@ -1,8 +1,8 @@
 {
 	"nodes":[
 		{"id":"54dce8684484b9e4","type":"text","text":"nmap (network mapper)","x":-125,"y":-30,"width":250,"height":60},
-		{"id":"d926da6bb3f17c22","type":"file","file":"Cyber Security/tools/nmap/images/images.jpeg","x":-360,"y":-70,"width":100,"height":100},
-		{"id":"83b1096194e9805b","x":-275,"y":160,"width":400,"height":400,"type":"file","file":"Cyber Security/tools/nmap/nmap.md"}
+		{"id":"d926da6bb3f17c22","type":"file","file":"something-useless/tools/nmap/images/images.jpeg","x":-360,"y":-70,"width":100,"height":100},
+		{"id":"83b1096194e9805b","x":-275,"y":160,"width":400,"height":400,"type":"file","file":"something-useless/tools/nmap/nmap.md"}
 	],
 	"edges":[
 		{"id":"f34b29b1bf3884f0","fromNode":"54dce8684484b9e4","fromSide":"left","toNode":"d926da6bb3f17c22","toSide":"right"},

@@ -3,10 +3,10 @@
 		{"id":"353a8d6a66180966","type":"group","x":-710,"y":-260,"width":640,"height":100,"label":"Basics"},
 		{"id":"f42009889670b05c","type":"text","text":"capture the flag","x":-340,"y":-240,"width":250,"height":60,"color":"2"},
 		{"id":"b48b997f25e34516","type":"text","text":"cve","x":-640,"y":-240,"width":250,"height":60,"color":"3"},
-		{"id":"7717e1bb7ff2abfe","type":"file","file":"Cyber Security/basics/capture the flag.md","x":0,"y":80,"width":400,"height":400},
-		{"id":"539736275a5d3129","type":"file","file":"Cyber Security/basics/images/capture the flag.png","x":0,"y":-140,"width":400,"height":189},
-		{"id":"73b8580540d001bd","type":"file","file":"Cyber Security/basics/images/cve.png","x":-700,"y":-62,"width":400,"height":142},
-		{"id":"73497763d3b29def","type":"file","file":"Cyber Security/basics/cve.md","x":-700,"y":140,"width":400,"height":388}
+		{"id":"7717e1bb7ff2abfe","type":"file","file":"something-useless/basics/capture the flag.md","x":0,"y":80,"width":400,"height":400},
+		{"id":"539736275a5d3129","type":"file","file":"something-useless/basics/images/capture the flag.png","x":0,"y":-140,"width":400,"height":189},
+		{"id":"73b8580540d001bd","type":"file","file":"something-useless/basics/images/cve.png","x":-700,"y":-62,"width":400,"height":142},
+		{"id":"73497763d3b29def","type":"file","file":"something-useless/basics/cve.md","x":-700,"y":140,"width":400,"height":388}
 	],
 	"edges":[
 		{"id":"b0898455931f8a04","fromNode":"f42009889670b05c","fromSide":"bottom","toNode":"7717e1bb7ff2abfe","toSide":"left"},
