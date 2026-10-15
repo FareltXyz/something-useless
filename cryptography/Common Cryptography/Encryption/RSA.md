@@ -12,6 +12,22 @@ Jika Orang **A** ingin mengirim pesan secara aman kepada Orang **B**:
 > 2. **Enkripsi:** Pengirim mengenkripsi data menggunakan Kunci Publik untuk menghasilkan **teks tersandi (cipher text)**.
 > 3. **Dekripsi:** Mendekripsi **teks tersandi** menggunakan Kunci Privat untuk mendapatkan kembali data asli.
 
+#### Bagaimana Cara Kerja RSA? 
+RSA mendukung dua operasi yang berbeda, tergantung pada kunci mana yang digunakan terlebih dahulu. Memahami perbedaan ini adalah kunci untuk memahami RSA.
+
+##### Enkripsi untuk kerahasiaan (kunci publik mengenkripsi) 
+Untuk mengirimkan data rahasia kepada seseorang, Anda mengenkripsinya dengan kunci publik milik mereka. Karena hanya kunci privat yang cocok yang dapat membalikkan operasi tersebut, hanya orang tersebut yang dapat mendekripsi dan membaca datanya, bahkan jika data tersebut dicegat di tengah jalan. Inilah cara RSA melindungi sebuah rahasia: siapa pun dapat mengenkripsi pesan untuk Anda menggunakan kunci publik Anda yang dipublikasikan, tetapi hanya Anda, yang memegang kunci privat, yang dapat membukanya.
+
+![RSA Working](https://ecwebsitedata.blob.core.windows.net/encryption-consulting-website-data/2020/09/RSA-Working-Diagram.jpg)
+
+#### Tanda tangan digital untuk keaslian (kunci privat menandatangani)
+
+Operasi kebalikannya membuktikan identitas. Pengirim menandatangani data dengan kunci privat mereka, dan siapa pun dapat memverifikasinya dengan kunci publik milik pengirim. Jika kunci publik berhasil memverifikasi tanda tangan tersebut, data tersebut secara sah berasal dari pemegang kunci privat dan belum diubah, karena modifikasi apa pun akan merusak hasil verifikasi. Hal ini tidak menjaga kerahasiaan data, melainkan membuktikan siapa yang mengirimkannya dan bahwa data tersebut masih utuh, yang menjadi dasar dari tanda tangan digital dan [sertifikat](https://www.encryptionconsulting.com/education-center/digital-certificates/).
+
+### Matematika di baliknya
+
+RSA didasarkan pada asimetri sederhana dalam hal tingkat kesulitan: sangat mudah untuk mengalikan dua bilangan prima besar secara bersamaan, tetapi sangat sulit untuk memfaktorkan kembali hasil perkalian tersebut menjadi bilangan-bilangan prima penyusunnya. Pasangan kunci dihasilkan dari dua bilangan prima besar, dan kunci publik serta privat diturunkan dari bilangan-bilangan tersebut. Penyerang yang dapat memfaktorkan kembali modulus publik menjadi faktor-faktor primanya akan dapat merekonstruksi kunci privat, tetapi untuk ukuran kunci yang cukup besar, pemfaktoran secara komputasi tidak mungkin dilakukan pada komputer klasik. Inilah alasan mengapa tingkat keamanan RSA meningkat seiring dengan panjang kunci.
+1
 #### **1. Pembuatan Kunci (Key Generation)**
 
   
