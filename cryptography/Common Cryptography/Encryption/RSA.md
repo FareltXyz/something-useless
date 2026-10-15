@@ -27,7 +27,11 @@ Operasi kebalikannya membuktikan identitas. Pengirim menandatangani data dengan 
 ### Matematika di baliknya
 
 RSA didasarkan pada asimetri sederhana dalam hal tingkat kesulitan: sangat mudah untuk mengalikan dua bilangan prima besar secara bersamaan, tetapi sangat sulit untuk memfaktorkan kembali hasil perkalian tersebut menjadi bilangan-bilangan prima penyusunnya. Pasangan kunci dihasilkan dari dua bilangan prima besar, dan kunci publik serta privat diturunkan dari bilangan-bilangan tersebut. Penyerang yang dapat memfaktorkan kembali modulus publik menjadi faktor-faktor primanya akan dapat merekonstruksi kunci privat, tetapi untuk ukuran kunci yang cukup besar, pemfaktoran secara komputasi tidak mungkin dilakukan pada komputer klasik. Inilah alasan mengapa tingkat keamanan RSA meningkat seiring dengan panjang kunci.
-1
+
+
+### Panjang Kunci RSA 
+Keamanan RSA sangat bergantung pada panjang kunci, karena kunci yang lebih panjang berarti bilangan yang harus difaktorkan berukuran lebih besar. Secara historis, kunci 1024-bit dulunya umum digunakan, tetapi saat ini dianggap terlalu lemah dan sudah tidak digunakan lagi. NIST merekomendasikan panjang kunci RSA minimum sebesar 2048-bit, dan banyak organisasi menggunakan kunci 3072-bit atau 4096-bit untuk perlindungan jangka panjang. Terhadap komputer klasik, RSA-2048 sangat aman: memfaktorkan kunci 2048-bit akan memakan waktu yang jauh lebih lama daripada usia alam semesta dengan teknologi saat ini dan metode yang diketahui. Seperti yang dibahas di bawah ini, komputasi kuantum mengubah perhitungan ini dengan cara yang tidak dapat diselesaikan hanya dengan menambah panjang kunci.
+
 #### **1. Pembuatan Kunci (Key Generation)**
 
   
