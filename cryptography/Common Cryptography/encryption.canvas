@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"803afac7ff474bb5","type":"text","text":"Enkripsi adalah proses mengubah informasi asli yang dapat dibaca (_plaintext_) menjadi bentuk kode acak yang tidak dapat dibaca (_ciphertext_) menggunakan algoritma matematika dan kunci tertentu\n\nEnkripsi digunakan untuk melindungi data agar tidak dicuri, diubah, atau disusupi. Enkripsi bekerja dengan mengacak data menjadi kode rahasia yang hanya dapat dibuka dengan kunci digital unik.\n\nData terenkripsi dapat dilindungi saat tersimpan di komputer atau dalam pengiriman di antara komputer, atau saat sedang diproses, terlepas dari apakah komputer tersebut berada di infrastruktur lokal atau merupakan server cloud jarak jauh.","x":-860,"y":-320,"width":545,"height":230},
+		{"id":"8afd4d1bfee1a08b","type":"text","text":"# Encryption","x":-140,"y":-205,"width":250,"height":60},
+		{"id":"733c677ad2ee6c94","type":"text","text":"## RSA","x":20,"y":-20,"width":250,"height":60},
+		{"id":"76c6d79b312f63f2","type":"file","file":"something-useless/cryptography/Common Cryptography/Encryption/RSA.md","x":520,"y":-460,"width":600,"height":400},
+		{"id":"4b0c72edc2d37817","type":"text","text":"## AES","x":20,"y":160,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"fd79cee28bc7e14a","fromNode":"8afd4d1bfee1a08b","fromSide":"left","toNode":"803afac7ff474bb5","toSide":"right"},
+		{"id":"f9327e3e542ba498","fromNode":"8afd4d1bfee1a08b","fromSide":"bottom","toNode":"733c677ad2ee6c94","toSide":"left"},
+		{"id":"cd6b3157635fa8f2","fromNode":"733c677ad2ee6c94","fromSide":"right","toNode":"76c6d79b312f63f2","toSide":"left"},
+		{"id":"0e4a5f1b6a43dbc9","fromNode":"8afd4d1bfee1a08b","fromSide":"bottom","toNode":"4b0c72edc2d37817","toSide":"left"}
+	]
+}
