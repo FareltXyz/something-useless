@@ -190,5 +190,5 @@ if __name__ == "__main__":
 
 ---
 materi tersebut diperoleh dari beberapa sumber berikut
--  [](https://www.geeksforgeeks.org/computer-networks/rsa-algorithm-cryptography/)
+-  [GeeksforGeeks - Rsa algorithm cryptography](https://www.geeksforgeeks.org/computer-networks/rsa-algorithm-cryptography/)
 
